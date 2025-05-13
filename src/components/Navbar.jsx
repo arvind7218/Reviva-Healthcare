@@ -38,7 +38,7 @@ const Navbar = () => {
         {/* Admin Panel Button (Desktop) */}
         <button
           className="py-1 px-3 border border-primary rounded-md hover:bg-gray-100 transition"
-          onClick={() => window.open("http://localhost:5174/", "_blank")}
+          onClick={() => window.open("https://reviva-healthcare-admin.onrender.com/", "_blank")}
         >
           Admin Panel
         </button>
@@ -77,7 +77,7 @@ const Navbar = () => {
             {/* Admin Panel Button (Mobile) */}
             <button
               className="py-1 px-3 border border-primary rounded-md hover:bg-gray-100 transition"
-              onClick={() => window.open("http://localhost:5174/", "_blank")}
+              onClick={() => window.open("https://reviva-healthcare-admin.onrender.com/", "_blank")}
             >
               Admin Panel
             </button>
