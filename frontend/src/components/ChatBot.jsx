@@ -15,7 +15,8 @@ const ChatBot = () => {
     setMessages(newMessages);
 
     try {
-      const response = await axios.post('http://localhost:4000/api/chat', {
+     // const response = await axios.post('http://localhost:4000/api/chat', {
+      const response = await axios.post('https://reviva-healthcare-backend.onrender.com/api/chat', {
         message: input,
       });
 
